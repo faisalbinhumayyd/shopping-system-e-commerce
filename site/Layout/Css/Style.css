@@ -1,0 +1,126 @@
+/* Start Base Style */
+*{
+    font-size: 1rem;
+    color: #000;
+}
+body{
+    
+}
+a,a:hover,a:active,a:focus{
+    text-decoration: none!important;
+}
+.ArrowDown{
+    width:100%;
+    bottom: -10px;
+    position:absolute;
+    color: #ecf0f1 !important;
+    transition: 1s;
+    cursor: pointer;
+    font-size:  5rem;
+    text-align: center;
+    animation: ArrowAnimate .8s infinite alternate;
+}
+.ArrowDown:hover{
+    color: white !important;
+}
+@keyframes ArrowAnimate {
+    0% {font-size: 4rem;}
+    100% {font-size: 6rem;}
+}
+.heading{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 60px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.hr{
+    margin-top: 5px;
+    border-top: 3px solid ;
+}
+label{
+    font-weight: bold;
+    margin-top: 5px;
+}
+.Seprate{
+    border-top: 10px solid #3498db;
+    margin-top: 0px;
+}
+/* End Base Style */
+/* Start NavBar Style */
+#Navbar{
+    top: 0;
+    width:100%;
+    opacity: .9;
+    height:100px;
+    padding: 2% 1%;
+    position:fixed;
+    z-index: 100000;
+    background-color:#2c3e50;
+    font-family: 'Spectral SC', serif;
+    transition: height .5s, line-height .5s;
+    -webkit-transition: height .5s, line-height .5s;
+}
+#Navbar .WebTitle{
+    width: 25%;
+    color: #8297ab;
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline-block;
+    font-family: 'Orbitron', sans-serif;
+    cursor: default;
+    transition: 1s;
+}
+#Navbar .WebTitle:hover{
+    color: #ffd700;
+}
+#Navbar .NavLinks{
+    width: 70%;
+    display: inline-block; 
+}
+#Navbar .NavLinks>ul{
+    margin-bottom: 0px;
+}
+#Navbar .NavLinks>ul>li{
+    margin: 13px 16px;
+    list-style-type:none;
+    display: inline-block;
+}
+#Navbar .NavLinks>ul>li>.active{
+    padding: 5px 5px;
+    border: 3px solid;
+    transition: .3s;
+}
+#Navbar .NavLinks>ul>li>.active:hover{
+    color:#0062ff!important;
+    border-radius: 12px;
+}
+#Navbar .NavLinks>ul>li>a:not(.active){
+    padding: 5px 5px;
+    transition: .3s;
+    color: #ecf0f1 !important;
+}
+#Navbar .NavLinks>ul>li>a:not(.active):hover{
+    color:#3498db!important;
+    border-bottom: 3px solid #0062ff;
+}
+.scrolled-nav{
+    padding: 0%!important;
+    height: 50px !important;
+}
+.scrolled-nav  .NavLinks{
+    top: 0;
+    position: absolute;   
+}
+.scrolled-nav  .NavLinks>ul>li{
+    margin: 0px 16px;
+}
+/* End NavBar Style */
+/* Start Home Style */
+#Home{
+margin-top: 8rem
+}
+#Home .over{
+
+}
+/* End Home Style */
