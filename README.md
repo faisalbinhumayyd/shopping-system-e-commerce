@@ -1,0 +1,2 @@
+# shopping-system-e-commerce
+This project is a web based shopping system for a shop. The objective of our project is to design and implement a shopping website to make it easier for people to buy our brand. The system will enable the users to setup online fashion shops (garments, accessories etc.), customer to browse through the shop and purchase them online without having to visit the shop physically.
